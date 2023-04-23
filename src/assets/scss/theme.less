@@ -1,0 +1,18 @@
+@import 'ant-design-vue/dist/antd.less'; // 引入官方提供的 less 样式入口文件
+@import 'variables.less'; // 添加自己的less，用于覆盖上面定义的变量
+@import 'drawer.less';
+.@{drawer-prefix-cls}-expand-icon{
+  width: 14px;
+  height: 32px;
+  background-color: @primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.@{drawer-prefix-cls}-indicator{
+  width: 4px;
+  height: 18px;
+  background-color: @primary-color;
+  margin: 0 4px 0 40px;
+}
